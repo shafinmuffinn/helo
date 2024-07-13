@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def startingpage(request):
-    return HttpResponse("Hello World, I'm Shafin")
+    return HttpResponse("Hello World, I'm Shafin. Hottest/smartest human alive <3")
