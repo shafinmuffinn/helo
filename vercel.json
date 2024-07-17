@@ -6,7 +6,10 @@
     },
     {
       "src": "staticfiles/**/*",
-      "use": "@vercel/static"
+      "use": "@vercel/static",
+      "config": {
+        "distDir": "static"
+      }
     }
     ],
     "routes": [
