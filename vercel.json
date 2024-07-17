@@ -8,7 +8,7 @@
       "src": "staticfiles/**/*",
       "use": "@vercel/static",
       "config": {
-        "distDir": "static"
+        "distDir": "staticfiles"
       }
     }
     ],
